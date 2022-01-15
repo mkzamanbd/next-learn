@@ -1,8 +1,7 @@
 import React from 'react'
 export default function Layout({children}) {
     return (
-        <div>
-            Hello Layout
+        <div id="master-layout" className="master-layout">
             { children }
         </div>
     )
